@@ -54,5 +54,11 @@
     };
   };
 
+  # Enable PostgreSQL
+  services.postgresql = {
+    enable = true;
+    ensureDatabases = [ "mydatabase" ];
+  };
+
   services.xserver.videoDrivers = [ "amdgpu" ];
 }

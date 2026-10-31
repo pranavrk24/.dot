@@ -50,23 +50,23 @@
       };
 
       font = {
-        size = 12.0;
+        size = 14.0;
       };
 
       font.bold = {
-        family = "IoskeleyMono Nerd Font Mono";
+        family = "JetbrainsMono Nerd Font Mono";
       };
 
       font.bold_italic = {
-        family = "IoskeleyMono Nerd Font Mono";
+        family = "JetbrainsMono Nerd Font Mono";
       };
 
       font.italic = {
-        family = "IoskeleyMono Nerd Font Mono";
+        family = "JetbrainsMono Nerd Font Mono";
       };
 
       font.normal = {
-        family = "IoskeleyMono Nerd Font Mono";
+        family = "JetbrainsMono Nerd Font Mono";
       };
 
       font.offset = {

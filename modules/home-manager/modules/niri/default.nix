@@ -190,7 +190,7 @@
         "Mod+Print".action.spawn = [
           "sh"
           "-c"
-          "grim - | wl-copy"
+          "grim"
         ];
 
         # Input method
