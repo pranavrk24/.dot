@@ -41,9 +41,6 @@
     # open-source postman alternative
     bruno
 
-    # lightroom alternative
-    darktable
-
     # archives
     unzip
     zip
@@ -92,8 +89,10 @@
     obs-studio
     vlc
 
+    # minecraft launcher
+    hmcl
+
     # comics reader
-    mcomix
     calibre
 
     # password manager
