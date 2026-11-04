@@ -103,8 +103,5 @@
           ];
         };
       };
-
-      # Optional: packages and devShells later
-      # packages = forAllSystems (system: import ./pkgs nixpkgs.legacyPackages.${system});
     };
 }

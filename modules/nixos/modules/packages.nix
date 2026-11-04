@@ -21,7 +21,6 @@
     shotcut
     meld
     vscode
-    vscodium
     nodejs
     pnpm
     networkmanager
@@ -29,6 +28,7 @@
     pavucontrol
     blueman
     bluetooth_battery
+    nh
     solaar
     usbutils
     libnotify

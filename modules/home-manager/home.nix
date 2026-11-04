@@ -158,6 +158,11 @@
     };
   };
 
+  home.sessionVariables = {
+    NH_FLAKE = "/home/radar/.dot";
+    NH_HOME_FLAKE = "/home/radar/.dot#homeConfigurations.shiro";
+  };
+
   home.stateVersion = "26.05";
 
   programs.home-manager.enable = true;
