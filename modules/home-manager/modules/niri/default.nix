@@ -19,29 +19,29 @@
   };
 
   # hypridle is Hyprland-specific. Use swayidle for Niri (or keep both and only enable one per session).
-  services.swayidle = {
-    enable = true;
-    timeouts = [
-      {
-        timeout = 600;
-        command = "${pkgs.brightnessctl}/bin/brightnessctl -s set 10";
-        resumeCommand = "${pkgs.brightnessctl}/bin/brightnessctl -r";
-      }
-      {
-        timeout = 720;
-        command = "${pkgs.hyprlock}/bin/hyprlock"; # or switch to swaylock
-      }
-      {
-        timeout = 750;
-        command = "niri msg action power-off-monitors";
-        resumeCommand = "niri msg action power-on-monitors";
-      }
-      {
-        timeout = 1800;
-        command = "systemctl suspend";
-      }
-    ];
-  };
+  # services.swayidle = {
+  #   enable = true;
+  #   timeouts = [
+  #     {
+  #       timeout = 600;
+  #       command = "${pkgs.brightnessctl}/bin/brightnessctl -s set 10";
+  #       resumeCommand = "${pkgs.brightnessctl}/bin/brightnessctl -r";
+  #     }
+  #     {
+  #       timeout = 720;
+  #       command = "${pkgs.hyprlock}/bin/hyprlock"; # or switch to swaylock
+  #     }
+  #     {
+  #       timeout = 750;
+  #       command = "niri msg action power-off-monitors";
+  #       resumeCommand = "niri msg action power-on-monitors";
+  #     }
+  #     {
+  #       timeout = 1800;
+  #       command = "systemctl suspend";
+  #     }
+  #   ];
+  # };
 
   programs.niri = {
     enable = true;
@@ -142,7 +142,7 @@
 
       prefer-no-csd = true;
 
-      binds = with pkgs.lib; {
+      binds = {
         # Apps
         "Mod+Return".action.spawn = "alacritty";
         "Mod+M".action.spawn = "pcmanfm";
@@ -192,6 +192,9 @@
           "-c"
           "grim"
         ];
+
+        # Gif recorder
+        "Mod+Shift+G".action.spawn = [ "gif-record.sh" ];
 
         # Input method
         "Mod+Ctrl+Space".action.spawn = [

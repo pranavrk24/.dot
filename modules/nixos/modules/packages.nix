@@ -10,6 +10,7 @@
     spotify
     clang
     clang-tools
+    glibc.dev
     rustup
     git
     gh

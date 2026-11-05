@@ -75,6 +75,8 @@
     slurp
     grimblast
 
+    ffmpeg
+
     # screen recorder
     wf-recorder
 
@@ -116,6 +118,8 @@
     tree-sitter
     terraform
     uv
+
+    (pkgs.writeShellScriptBin "gif-record" (builtins.readFile ../../scripts/gif-record.sh))
   ];
 
   gtk = {
