@@ -4,6 +4,7 @@
     ./bat
     ./btop
     ./fastfetch
+    ./fish
     ./ghostty
     ./git
     ./gpg

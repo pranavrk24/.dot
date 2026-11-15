@@ -25,6 +25,10 @@
     enable = true;
   };
 
+  programs.fish = {
+    enable = true;
+  };
+
   programs.zsh = {
     enable = true;
     autosuggestions.enable = true;
