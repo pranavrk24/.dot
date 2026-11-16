@@ -32,7 +32,6 @@ return {
         'gopls',
         'rust-analyzer',
         'lua-language-server', -- lua_ls
-        'clangd',
         'zls',
         -- Formatters and linters
         -- 'prettier', -- prettier formatter

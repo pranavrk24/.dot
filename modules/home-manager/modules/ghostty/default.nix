@@ -6,20 +6,9 @@
 
     settings = {
       # Fonts
-      font-family = "FiraCode Nerd Font Mono";
-      font-family-italic = "Maple Mono";
-
       font-size = 14;
 
       font-thicken = true;
-
-      font-feature = [
-        "zero"
-        "cv02"
-        "ss02"
-        "ss03"
-        "ss05"
-      ];
 
       window-inherit-font-size = true;
 
@@ -27,7 +16,7 @@
 
       theme = "Kanagawabones";
 
-      background-opacity = 0.95;
+      background-opacity = 0.90;
 
       window-theme = "ghostty";
       window-save-state = "always";
@@ -37,9 +26,9 @@
       keybind = [
         "super+shift+r=reload_config"
         ## Tabs
-        "super+shift+t=new_tab"
-        "super+shift+l=next_tab"
-        "super+shift+h=previous_tab"
+        "ctrl+space>c=new_tab"
+        "ctrl+space>n=next_tab"
+        "ctrl+space>p=previous_tab"
 
         "super+shift+comma=move_tab:-1"
         "super+shift+period=move_tab:1"
@@ -50,7 +39,7 @@
         "ctrl+j=goto_split:bottom"
         "ctrl+k=goto_split:top"
         "ctrl+l=goto_split:right"
-        "ctrl+shift+enter=new_split:auto"
+        "ctrl+space>enter=new_split:auto"
 
         ## Clipboard
         "ctrl+shift+c=copy_to_clipboard"

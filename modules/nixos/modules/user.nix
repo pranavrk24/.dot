@@ -11,7 +11,7 @@
       "wheel"
       "libvirtd"
     ];
-    packages = with pkgs; [
+    packages = [
     ];
     shell = pkgs.zsh;
   };
