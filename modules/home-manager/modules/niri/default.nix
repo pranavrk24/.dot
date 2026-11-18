@@ -144,7 +144,7 @@
 
       binds = {
         # Apps
-        "Mod+Return".action.spawn = "alacritty";
+        "Mod+Return".action.spawn = "ghostty";
         "Mod+M".action.spawn = "pcmanfm";
         "Mod+W".action.spawn = "zen";
         "Mod+Space".action.spawn = [

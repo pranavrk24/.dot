@@ -104,6 +104,7 @@
     nixd
     nixfmt
     cargo
+    rustc
     lua54Packages.luarocks
     nodejs
     go

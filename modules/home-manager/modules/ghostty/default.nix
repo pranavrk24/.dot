@@ -14,7 +14,7 @@
 
       mouse-hide-while-typing = true;
 
-      theme = "Kanagawabones";
+      theme = "Catppuccin Mocha";
 
       background-opacity = 0.90;
 
